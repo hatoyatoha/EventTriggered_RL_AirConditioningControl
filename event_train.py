@@ -1,5 +1,5 @@
 # actor:policy gradient, critic:一層NN
-#python==3.7.16
+# python==3.7.16
 from pathlib import Path
 import random
 import numpy as np  #numpy==1.21.4
@@ -184,4 +184,5 @@ def view(threshold_high_list, threshold_low_list, std_list, j_list, actor_loss_l
 if __name__ == "__main__":
     threshold_high_list, threshold_low_list, std_list, j_list, actor_loss_list, critic_loss_list, time_list = train()
     view(threshold_high_list, threshold_low_list, std_list, j_list, actor_loss_list, critic_loss_list, time_list)
+
 
