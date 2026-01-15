@@ -1,4 +1,4 @@
-#python==3.7.16
+# python==3.7.16
 from pathlib import Path
 import random
 import numpy as np  #numpy==1.21.4
@@ -133,3 +133,4 @@ class ReplayMemory:
 
     def __len__(self):  #バッファの要素数
         return len(self.buffer)
+
