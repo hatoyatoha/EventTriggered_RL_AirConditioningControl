@@ -1,5 +1,5 @@
 # 資料グラフ出力用
-#python==3.7.16
+# python==3.7.16
 from pathlib import Path
 import random
 import numpy as np  #numpy==1.21.4
@@ -39,3 +39,4 @@ if __name__ == "__main__":
     smdp_threshold_high_list, smdp_threshold_low_list, smdp_std_list, smdp_j_list, smdp_actor_loss_list, smdp_critic_loss_list, smdp_time_list = smdp_train()
     mix_threshold_high_list, mix_threshold_low_list, mix_std_list, mix_j_list, mix_actor_loss_list, mix_critic_loss_list, mix_time_list = mix_train()
     view(mdp_threshold_high_list, mdp_threshold_low_list, mdp_std_list, mdp_j_list, mdp_actor_loss_list, mdp_critic_loss_list, mdp_time_list, smdp_threshold_high_list, smdp_threshold_low_list, smdp_std_list, smdp_j_list, smdp_actor_loss_list, smdp_critic_loss_list, smdp_time_list, mix_threshold_high_list, mix_threshold_low_list, mix_std_list, mix_j_list, mix_actor_loss_list, mix_critic_loss_list, mix_time_list)
+
