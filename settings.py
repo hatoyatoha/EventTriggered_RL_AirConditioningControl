@@ -1,4 +1,4 @@
-
+ 
 seed = 42
 gamma = 0.99
 epochs = 10000
