@@ -1,5 +1,5 @@
-#環境
-#python==3.7.16
+# 環境
+# python==3.7.16
 from pathlib import Path
 import random
 import numpy as np  #numpy==1.21.4
@@ -59,3 +59,4 @@ class Environment(object):
         reward = r_sw + self.r_e*next_h_status*step_interval*60 + self.r_c*ans
 
         return reward  #unit
+
