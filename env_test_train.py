@@ -1,5 +1,5 @@
 # 環境のコードの動作確認
-#python==3.7.16
+# python==3.7.16
 from pathlib import Path
 import random
 import numpy as np  #numpy==1.21.4
@@ -100,3 +100,4 @@ ax.set_xlabel('OFFにする閾値（℃）', size=14)
 ax.set_ylabel('ONにする閾値（℃）', size=14)
 ax.set_zlabel('平均報酬（unit/hour）', size=14, rotation=90)
 plt.show()
+
